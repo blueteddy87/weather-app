@@ -3,6 +3,7 @@ import "./descriptions.css";
 import {FaArrowDown, FaArrowUp, FaWind} from 'react-icons/fa';
 import {BiHappy} from "react-icons/bi";
 import {MdCompress, MdOutlineDrop, MdOutlineWaterDrop} from "react-icons/md";
+import {WiRain} from "react-icons/wi";
 import { icons } from "react-icons";
 
 
@@ -54,6 +55,7 @@ const Descriptions = ({weather, units}) => {
             data: weather.speed.toFixed(),
             unit: windUnit,
         },
+
     ]
 
     return (
